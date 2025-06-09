@@ -19,7 +19,7 @@ class _CounterPageState extends ConsumerState<CounterPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('Flutter Demo Home Page'),
+        title: Text('Counter with Riverpod'),
       ),
       body: Center(
         child: Column(
